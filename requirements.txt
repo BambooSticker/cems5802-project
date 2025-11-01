@@ -1,0 +1,19 @@
+# Numerical & data handling
+numpy>=1.24.0
+pandas>=1.5.0
+
+# Gym environment
+gymnasium>=0.29.0
+
+# RL and neural network Predictive model
+stable-baselines3>=1.8.0
+torch>=2.0.0
+
+# Plotting & visualization
+matplotlib>=3.7.0
+
+# Scientific computing
+scipy>=1.10.0
+
+# Machine learning
+scikit-learn>=1.2.0
