@@ -4,33 +4,6 @@
 
 Industrial demand-side management (DSM) presents significant economic opportunities for energy-intensive industries participating actively in electricity markets. In this project, the scheduling of a generic industrial process, represented as a flexible battery storage system, was modeled as a sequential decision-making problem and solved using reinforcement learning (RL). The RL agent was trained on day-ahead electricity price data from the German electricity spot market in 2017. To benchmark the RL agent’s per- formance, a model predictive control (MPC) approach was also developed, using a neural network for short-term price forecasting.
 
-## Directory Structure
-
-├── 0_time-series-analysis.ipynb
-├── 1_agent-training.ipynb
-├── 2_agent-test.ipynb
-├── 3_deterministic-model-Julia.ipynb
-├── 4_neural-network-for-mpc.ipynb
-├── 5_mpc-Julia.ipynb
-├── StorageEnvEffLos_rate.py
-├── tools.py
-├── data/
-│   └── DayAheadSpotPrices.csv (MAIN)
-│   └── PredictedPrices.csv
-│   └── P_mpc.csv
-│   └── S_mpc.csv
-│   └── oracle.json
-├── figures/
-│   └── cost_comparison.png
-│   └── result_comparison.png
-│   └── price_comparison_mpc.png
-├── model/
-│   └── ppo_energy_storage.zip
-├── report/
-│   └── 25-Sp_CEMS-5802_project-report_Li-Nassaji-Janey.pdf
-├── requirements.txt
-└── README.md
-
 ## File and Directory Descriptions
 
 - `0_time-series-analysis.ipynb`: Exploratory analysis of historical day-ahead electricity prices, including decomposition and visualization of seasonal and trend components.
